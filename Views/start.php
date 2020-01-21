@@ -5,14 +5,35 @@
     <title>WorkCounter</title>
 </head>
 <body>
-<div class="container">
-    <div class="logo">
-        <img src="../Public/img/start1.svg">
+<div id="kontener">
+    
+    <div id = "nazwa">
+        WorkCounter
     </div>
-    <form>
 
-    </form>
+    <div id = "menu">
+        My Workplaces <br/>
+        Statistic <br/>
+        Settings <br/>
+        My Account <br/>
+        Contact 
+    </div>
 
+    <div id = "podnazwa">
+        My Workplaces <br/>
+    </div>
+
+    <div id = "sidebar">
+
+    </div>
+
+    <div id="content">
+
+    </div>
+
+    <div id="footer">
+        Wyslij donate plis Mordeczko
+    </div>
 
 </div>
 </body>

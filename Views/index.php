@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
@@ -16,10 +20,12 @@
         <input name="password" type="password" placeholder="password">
         <br></br>
         <button type="submit">CONTINUE</button>
-        <br></br>
-        <button type="submit">CREAT AN ACCOUNT</button>
-        <br></br>
+
     </form>
+
+    <?php
+        if(isset($_SESSION['blad']))    echo $_SESSION['blad'];
+    ?>
 </div>
 </body>
 </html>

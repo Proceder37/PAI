@@ -6,6 +6,7 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    font-family:'Segoe UI';
 }
 
 .container {
@@ -16,6 +17,50 @@ body {
     align-items: center;
     background: transparent linear-gradient(180deg, #80F873 0%, #073303 100%) 0% 0% no-repeat padding-box;
 }
+
+#kontener{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: inherit;
+    background: transparent linear-gradient(180deg, #80F873 0%, #073303 100%) 0% 0% no-repeat padding-box;
+
+}
+
+#nazwa {
+    color: black;
+    margin-top:1em;
+    font-size:44px;
+    font-weight: 900;
+    letter-spacing:0.05em;
+}
+
+#menu {
+    
+}
+
+#podnazwa {
+    
+}
+
+#sidebar {
+    
+}
+
+#content {
+    
+}
+
+#footer {
+    
+}
+
+.column {
+    float:left;
+    background-color:#DDD;
+    width:30%;
+    min-height:150px;
+    color: #4B666E;}
 
 form {
     display: flex;
@@ -61,6 +106,10 @@ button {
 .logo > img {
     width: 12.5em;
 }
+
+.gornynapis{
+    font-size: 2em;
+  }
 
 @media only screen and (max-device-width: 992px){
     body {

@@ -23,6 +23,7 @@
                 $wiersz = $rezultat->fetch_assoc();
                 $user = $wiersz['email'];
 
+                unset($_SESSION['blad']);
                 $rezultat->free();
 
                 header('Location: start.php');
@@ -30,7 +31,8 @@
             }
             else
             {
-                
+                $_SESSION['blad']= '<span style="color:red">Nieprawidłowy login lub haslo!</span>';
+                header('Location: index.php');
             }
         }
 
