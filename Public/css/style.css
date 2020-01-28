@@ -19,40 +19,102 @@ body {
 }
 
 #kontener{
-    display: flex;
-    flex-direction: row;
+    
     justify-content: center;
     height: inherit;
     background: transparent linear-gradient(180deg, #80F873 0%, #073303 100%) 0% 0% no-repeat padding-box;
 
 }
 
-#nazwa {
+#nazwa{
+    text-align: center;
     color: black;
-    margin-top:1em;
-    font-size:44px;
+    font-size:55px;
     font-weight: 900;
     letter-spacing:0.05em;
+
 }
 
 #menu {
     
+    background-color: #4B666E;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0.25em;
+    box-align: left;
+    text-orientation: center;
+    opacity: 0.9;
 }
 
 #podnazwa {
-    
+    text-align: center;
+    color: black;
+    font-size:40px;
+    font-weight: 700;
 }
 
 #sidebar {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2em;
 }
 
-#content {
-    
+#W{
+    text-align: center;
+}
+#AA{
+    float: left;
+    width: 35%;
+    text-align: center;
+    padding-top: 5em;
+}
+#AB{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-top: 5em;
+}
+#AC{
+    float: left;
+    width: 35%;
+    text-align: center;
+    padding-top: 10em;
+}
+ .WW{
+    float: left;
+    width: 33.33%;
+    padding-top: 2em;
+ }
+
+ #SA{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5em;
+}
+#SB{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding-top: 5em;
 }
 
 #footer {
-    
+    clear: both;
+}
+
+.option{
+    float: left;
+    width: 19.8%;
+    height: 1.8em;
+    font-size: 20px;
+    border-right: 0.1em dotted #333333;
+}
+
+.option:hover{
+    cursor: pointer;
 }
 
 .column {
@@ -83,6 +145,27 @@ form > input {
     font-size: 1em;
 }
 
+#kontakt{
+    padding-left: 2em;
+    padding-top: 2em;
+    height: 50%;
+    width: 30%;
+    justify-content: center;
+}
+
+kontakt > input1 {
+    padding-left: 0.5em;
+    margin: 0 1em 1em 1em;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #040404;
+    border-radius: 2em;
+
+    /* font */
+    color: #2699FB;
+    line-height: 2.5em;
+    font-size: 1em;
+}
+
 button {
     margin: 0 1em 1em 1em;
     color: black;
@@ -95,6 +178,19 @@ button {
     line-height: 2.5em;
     font-size: 1em;
 }
+button1{
+    margin: 0 1em 1em 1em;
+    cursor: pointer;
+    background: #4B666E 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 2em;
+    border: none;
+    font-weight: bold 700;
+
+    line-height: 2.5em;
+    font-size: 2em;
+}
+
 
 .logo {
     display: flex;
@@ -103,45 +199,8 @@ button {
     width: 30%;
 }
 
-.logo > img {
-    width: 12.5em;
-}
-
-.gornynapis{
-    font-size: 2em;
-  }
-
-@media only screen and (max-device-width: 992px){
-    body {
-        font-size: 48px;
-    }
-    .container {
-        flex-direction: column;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    .logo > img {
-        width: 7.5em;
-    }
-}
-
-
-@media screen and (max-width: 600px) {
-    body {
-        font-size: 18px;
-    }
-    .container {
-        flex-direction: column;
-    }
-
-    form {
-        width: 100%;
-    }
-
-    .logo > img {
-        width: 7.5em;
-    }
+.error{
+    color:red;
+    margin-top:1em;
+    margin-bottom: 1em;
 }

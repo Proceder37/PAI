@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156.24" height="166.32" viewBox="0 0 279 297">
+  <g id="Group_790" data-name="Group 790" transform="translate(-334 -687)">
+    <g id="Group_773" data-name="Group 773" transform="translate(-103 227)">
+      <rect id="Rectangle_391" data-name="Rectangle 391" width="279" height="297" transform="translate(437 460)" fill="#f1f9ff"/>
+      <circle id="Ellipse_139" data-name="Ellipse 139" cx="20" cy="20" r="20" transform="translate(558 525)" fill="#fff"/>
+      <text id="Add_new_workplace" data-name="Add new workplace" transform="translate(505 647)" fill="#0a0a0a" font-size="11" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-51.345" y="0">Add new workplace</tspan></text>
+      <text id="_" data-name="$$" transform="translate(577 694)" font-size="14" font-family="ArialMT, Arial"><tspan x="-7.786" y="0">$$</tspan></text>
+      <text id="_2" data-name="+" transform="translate(577 559)" font-size="41" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-11.972" y="0">+</tspan></text>
+      <rect id="Rectangle_1468" data-name="Rectangle 1468" width="279" height="297" transform="translate(437 460)" fill="#4b666e"/>
+      <path id="Path_145" data-name="Path 145" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(527 495)" fill="#fff"/>
+      <text id="Cinema" transform="translate(578 637)" fill="#0a0a0a" font-size="30" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-54.185" y="0">Cinema</tspan></text>
+      <text id="_15.7_PLN_per_hour" data-name="15.7 PLN per hour" transform="translate(451 677)" font-size="20" font-family="ArialMT, Arial"><tspan x="0" y="0">15.7 PLN per hour</tspan></text>
+      <path id="_17548408981557749681" data-name="17548408981557749681" d="M72,40.5v14a2.965,2.965,0,1,1-5.833,0s.35-3.5-5.833-3.5H54.5V68.5A3.249,3.249,0,0,1,51.583,72H4.917A3.249,3.249,0,0,1,2,68.5v-28A3.249,3.249,0,0,1,4.917,37H51.583A3.249,3.249,0,0,1,54.5,40.5V44h5.833c6.183,0,5.833-3.5,5.833-3.5A2.965,2.965,0,1,1,72,40.5ZM13.667,9C7.223,9,2,15.268,2,23S7.223,37,13.667,37s11.667-6.268,11.667-14S20.11,9,13.667,9Zm0,21c-3.222,0-5.833-3.134-5.833-7s2.612-7,5.833-7S19.5,19.134,19.5,23,16.888,30,13.667,30ZM39.917,2C31.863,2,25.333,9.835,25.333,19.5S31.863,37,39.917,37,54.5,29.165,54.5,19.5,47.971,2,39.917,2Zm0,28c-4.832,0-8.75-4.7-8.75-10.5S35.084,9,39.917,9s8.75,4.7,8.75,10.5S44.749,30,39.917,30Z" transform="translate(546 506)"/>
+    </g>
+  </g>
+</svg>

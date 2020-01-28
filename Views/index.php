@@ -15,11 +15,15 @@
         <img src="../Public/img/workcounter.svg">
     </div>
     <form action="zaloguj.php", method="post">
+        <a href="rejestracja.php"> Rejestracja - załóż darmowe konto!</a>
+        <br /><br /> 
         <input name="email" type="text" placeholder="email@email.com">
         <br></br>
         <input name="password" type="password" placeholder="password">
         <br></br>
         <button type="submit">CONTINUE</button>
+
+
 
     </form>
 

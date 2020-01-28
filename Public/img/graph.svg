@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="262.5" viewBox="0 0 670 526">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="1" stop-color="#120a20"/>
+    </linearGradient>
+  </defs>
+  <g id="graph" transform="translate(-11 -274)">
+    <rect id="_1" data-name="1" width="35" height="494" transform="translate(16 274)" fill="url(#linear-gradient)"/>
+    <rect id="_2" data-name="2" width="35" height="470" transform="translate(94 298)" fill="url(#linear-gradient)"/>
+    <rect id="_3" data-name="3" width="35" height="128" transform="translate(172 640)" fill="url(#linear-gradient)"/>
+    <rect id="_4" data-name="4" width="35" height="73" transform="translate(250 695)" fill="url(#linear-gradient)"/>
+    <rect id="_5" data-name="5" width="35" height="105" transform="translate(328 663)" fill="url(#linear-gradient)"/>
+    <rect id="_6" data-name="6" width="35" height="458" transform="translate(484 310)" fill="url(#linear-gradient)"/>
+    <rect id="_7" data-name="7" width="35" height="189" transform="translate(562 579)" fill="url(#linear-gradient)"/>
+    <rect id="_8" data-name="8" width="35" height="64" transform="translate(640 704)" fill="#e00"/>
+    <rect id="_6-2" data-name="6" width="35" height="259" transform="translate(406 509)" fill="url(#linear-gradient)"/>
+    <text id="_04_19" data-name="04/19" transform="translate(34 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">04/19</tspan></text>
+    <text id="_05_19" data-name="05/19" transform="translate(112 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">05/19</tspan></text>
+    <text id="_06_19" data-name="06/19" transform="translate(190 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">06/19</tspan></text>
+    <text id="_07_19" data-name="07/19" transform="translate(268 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">07/19</tspan></text>
+    <text id="_08_19" data-name="08/19" transform="translate(346 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">08/19</tspan></text>
+    <text id="_09_19" data-name="09/19" transform="translate(424 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">09/19</tspan></text>
+    <text id="_10_19" data-name="10/19" transform="translate(502 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">10/19</tspan></text>
+    <text id="_11_19" data-name="11/19" transform="translate(584 796)" fill="#fff" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.025" y="0">11/19</tspan></text>
+    <text id="_12_19" data-name="12/19" transform="translate(658 796)" fill="#efefef" font-size="18" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="-22.522" y="0">12/19</tspan></text>
+  </g>
+</svg>
