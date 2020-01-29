@@ -84,8 +84,7 @@
             else
             {
                 //czy email juz istnieje
-                $rezultat=$polaczenie->query("SELECT numer FROM uzytkownicy WHERE email='$email'");
-
+                $rezultat=$polaczenie->query("SELECT id_uzytkownik FROM uzytkownicy WHERE email='$email'");
                 if(!$rezultat) throw new Exception($polaczenie->error);
                 $ile_takich_maili = $rezultat->num_rows;
                 if($ile_takich_maili>0)
@@ -94,7 +93,7 @@
                     $_SESSION['e_email']="Istnieje juz konto z takim e-mailem";
                 }
                 //czy nick juz istnieje
-                $rezultat=$polaczenie->query("SELECT numer FROM uzytkownicy WHERE nick='$nick'");
+                $rezultat=$polaczenie->query("SELECT id_uzytkownik FROM uzytkownicy WHERE nick='$nick'");
 
                 if(!$rezultat) throw new Exception($polaczenie->error);
                 $ile_takich_nickow = $rezultat->num_rows;
@@ -108,8 +107,7 @@
                 if($wszystko_OK==true)
                 {
                     //Dodajemy do bazy
-                   
-                    if($polaczenie->query("INSERT INTO uzytkownicy VALUES(4,'$nick','$email','$haslo_hash','Polska','1990-01-01','500600700')"))
+                    if($polaczenie->query("INSERT INTO uzytkownicy VALUES(null,'$nick','$email','$haslo_hash')"))
                     {
                         $_SESSION['udanarejestracja']=true;
                         header('Location: witamy.php');
